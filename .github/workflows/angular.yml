@@ -33,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular application
-        run: npx ng build --base-href "/D280-World-Map/"
+        run: npx ng build --base-href "/Angular-World-Map/"
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
